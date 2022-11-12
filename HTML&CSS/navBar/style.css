@@ -19,7 +19,8 @@ label.logo{
     line-height: 80px;
     padding: 0 100px;
     font-weight: bolder;
-
+    cursor: pointer;
+    caret-color: transparent;
 }
 nav ul {
     float: right;
@@ -31,6 +32,7 @@ nav ul li {
     margin: 0 5px;
 }
 nav ul li a{
+    
     color: whitesmoke;
     font-family: serif; 
     font-weight: bold;
@@ -39,8 +41,9 @@ nav ul li a{
     border-radius: 3px;
     text-transform: uppercase;
 }
-a.active,a:hover{
-    background-color: rgb(229, 8, 8) ;
+a:hover{
+    
+    background-color: rgb(53, 10, 10) ;
     transition: .5s;
 }
 
@@ -88,7 +91,7 @@ nav ul li{
 nav ul li a{
     font: size 20px; ;
 }
-a:hover, a.active{
+a:hover{
     background: none;
     color: black;
 }
@@ -98,6 +101,8 @@ a:hover, a.active{
 }
 section {
     background: url(background.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
     height: calc(100vh - 80px);
 
 }
