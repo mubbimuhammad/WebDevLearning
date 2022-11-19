@@ -101,8 +101,10 @@ a:hover{
 }
 section {
     background: url(background.jpg) no-repeat;
+    width: 100%;
     background-size: cover;
     background-position: center;
     height: calc(100vh - 80px);
+    
 
 }
